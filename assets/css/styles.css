@@ -234,7 +234,7 @@ body[data-page]:not([data-page="home"]) .site-header {
   animation: fadeIn 2.1s var(--ease) both;
 }
 .hero__stage.animate.ambient {
-  animation: fadeIn 2.1s var(--ease) both, sway 15s ease-in-out 0s infinite;
+  animation: fadeIn 2.1s var(--ease) both, sway 12s ease-in-out 0s infinite;
 }
 @keyframes fadeIn {
   from { opacity: 0; }
