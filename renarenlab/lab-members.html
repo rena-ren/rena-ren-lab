@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab Members — Rena Ren Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="members">
+
+  <header id="site-header"></header>
+
+  <main class="page">
+    <p class="page__eyebrow">People</p>
+    <h1 class="page__title">Lab Members</h1>
+
+    <!-- ================= EDIT: invitation blurb ================= -->
+    <p class="invite">The lab is forming now! We are looking for curious, collaborative scientists — chemists, biologists, engineers, and computational thinkers — who want to build new ways of seeing, detecting and mapping RNA molecules in health and disease. If that sounds like you, we would love to hear from you!</p>
+    <!-- =================== end invitation ====================== -->
+
+    <!-- members render here from config.js -> members[] -->
+    <div class="member-list" id="member-list"></div>
+
+    <!-- open positions render here from config.js -> openings[] -->
+    <section class="openings" id="openings"></section>
+  </main>
+
+  <div class="page-texture" aria-hidden="true"></div>
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

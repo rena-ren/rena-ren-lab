@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rena Ren Lab — Spatial RNA Biology &amp; Technology</title>
+  <meta name="description" content="Laboratory of Spatial RNA Biology & Technology — building next-generation tools to explore RNA in space and time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="home">
+
+  <header id="site-header"></header>
+
+  <main>
+    <section class="hero" aria-label="Cellular landscape — choose a cell to navigate">
+      <!-- rotating planet of cells -->
+      <div class="hero__stage" id="hero-stage">
+        <img class="hero__img" src="assets/img/cell-landscape.jpg"
+             alt="A watercolour cellular landscape curving like a planet's horizon" />
+        <!-- clickable cell doorways are injected here from config.js -->
+        <div id="hotspots"></div>
+      </div>
+
+      <!-- EDIT: floating heading text lives in config.js -> hero.heading -->
+      <h1 class="hero__heading" id="hero-heading"></h1>
+      <p class="hero__subheading">Lab Launching Soon in 2026</p>
+    </section>
+  </main>
+
+  <footer class="home-footer">Copyright © Ren Lab</footer>
+
+  <script src="assets/js/config.js"></script>
+  <script>
+    // place the configured heading (kept here so it renders even before app.js paints chrome)
+    document.getElementById("hero-heading").textContent = (window.SITE && SITE.hero && SITE.hero.heading) || "";
+  </script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

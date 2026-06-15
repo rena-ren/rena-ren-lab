@@ -1,0 +1,2 @@
+Drop licensed AMAGRO and ORTICA .woff2 files here, then uncomment the
+@font-face blocks at the top of assets/css/styles.css.
