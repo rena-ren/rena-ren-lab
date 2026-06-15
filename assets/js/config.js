@@ -81,6 +81,7 @@ window.SITE = {
       name: "Jingyi Rena Ren, PhD",
       role: "Principal Investigator",
       photo: "assets/img/rena-ren.jpg",
+      linkedin: "https://www.linkedin.com/in/jingyi-rena-ren",
       blurb: "Rena is founding the lab at the Genome Institute of Singapore (A*STAR). She received her B.A. in Biochemistry at Bryn Mawr College and completed her PhD in Chemistry at Massachusetts Institute of Technology in the United States, under the supervision of Dr. Xiao Wang. She completed her postdoctoral training with Dr. Yi Zhang as a Helen Hay Whitney Postdoctoral Fellow in Harvard Medical School. Outside the lab, Rena has a range of hobbies including reading books, watching movies, music & singing, and exploring artworks."
     }
     ,{
