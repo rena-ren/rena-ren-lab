@@ -273,7 +273,7 @@ body[data-page]:not([data-page="home"]) .site-header {
 .hero__subheading {
   position: absolute;
   left: 50%;
-  top: clamp(43%, 47vh, 51%);
+  top: clamp(40%, 44vh, 48%);
   transform: translateX(-50%);
   width: min(1440px, 94vw);
   text-align: center;
