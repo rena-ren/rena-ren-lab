@@ -143,7 +143,7 @@ window.SITE = {
       year: 2024,
       title: "Spatial omics advances for in situ RNA biology",
       venue: "Molecular Cell 84(19), 3737–3757",
-      authors: "Ren, J., Luo, S., Shi, H., Wang, X.#",
+      authors: "Ren, J., Luo, S., Shi, H.#, Wang, X.#",
       link: "https://www.cell.com/molecular-cell/fulltext/S1097-2765(24)00656-7"
     },
     {
