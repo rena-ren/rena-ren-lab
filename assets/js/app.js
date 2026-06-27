@@ -170,7 +170,8 @@
         }
         if (p.figure) {
           var figClass = p.figureHalf ? 'pub__figure pub__figure--half' : 'pub__figure';
-          extra += '<img class="' + figClass + '" src="' + esc(p.figure) + '" alt="Figure for ' + esc(p.title) + '">';
+          var figStyle = p.figureScale ? ' style="max-width:' + (p.figureHalf ? 50 * p.figureScale : 100 * p.figureScale) + '%"' : '';
+          extra += '<img class="' + figClass + '" src="' + esc(p.figure) + '"' + figStyle + ' alt="Figure for ' + esc(p.title) + '">';
         }
         var titleHtml = p.link
           ? '<a href="' + esc(p.link) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>'

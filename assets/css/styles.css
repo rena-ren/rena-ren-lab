@@ -516,7 +516,7 @@ body[data-page]:not([data-page="home"]) .site-header {
 .pub__venue { color: var(--terracotta); font-size: 15px; margin: 0 0 6px; font-style: italic; }
 .pub__authors { color: var(--ink-soft); font-size: 15px; margin: 0; line-height: 1.5; }
 .pub__intro { color: var(--ink); font-size: 15px; margin: 16px 0 12px; line-height: 1.7; max-width: none; }
-.pub__figure { display: block; max-width: 100%; margin: 12px 0 0; border-radius: 8px; }
+.pub__figure { display: block; max-width: 100%; margin: 12px 0 0; border-radius: 8px; opacity: 0.8; }
 .pub__figure--half { max-width: 50%; }
 .empty-note { color: var(--ink-soft); font-style: italic; margin-top: 24px; }
 

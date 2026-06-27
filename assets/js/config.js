@@ -137,14 +137,19 @@ window.SITE = {
       title: "Spatially resolved in situ profiling of mRNA life cycle at transcriptome scale in intact cells and tissues",
       venue: "Nature Protocols",
       authors: "Ren, J., Zeng, H., Huang, J.*, Shi, H., Sui, X., Tang, Z., Luo, S., Tian, J., Wu, M., Wang, X.#",
-      link: "https://www.nature.com/articles/s41596-025-01248-3"
+      link: "https://www.nature.com/articles/s41596-025-01248-3",
+      figure: "assets/img/mrna-lifecycle-figure.png",
+      figureHalf: true,
+      figureScale: 0.8
     },
     {
       year: 2024,
       title: "Spatial omics advances for in situ RNA biology",
       venue: "Molecular Cell 84(19), 3737–3757",
       authors: "Ren, J., Luo, S., Shi, H.#, Wang, X.#",
-      link: "https://www.cell.com/molecular-cell/fulltext/S1097-2765(24)00656-7"
+      link: "https://www.cell.com/molecular-cell/fulltext/S1097-2765(24)00656-7",
+      figure: "assets/img/spatial-omics-figure.png",
+      figureHalf: true
     },
     {
       year: 2024,
