@@ -127,14 +127,14 @@ body[data-page]:not([data-page="home"]) .site-header {
   display: block;
   font-family: var(--font-brand);
   font-weight: 700;
-  font-size: clamp(20px, 2.3vw, 30px);
+  font-size: clamp(17px, 1.9vw, 24px);
   letter-spacing: .14em;
   color: var(--ink);
 }
 .brand__tagline {
   display: block;
   font-family: var(--font-ui);
-  font-size: clamp(12px, 1.2vw, 14.4px);
+  font-size: clamp(10.5px, 1vw, 12px);
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--ink-soft);

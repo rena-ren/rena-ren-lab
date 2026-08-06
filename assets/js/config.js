@@ -133,6 +133,15 @@ window.SITE = {
      ------------------------------------------------------------------------- */
   publications: [
     {
+      year: 2026,
+      title: "Subcellularly Resolved 3D Translatome in Mouse Oocytes and Early Embryos",
+      venue: "bioRxiv",
+      authors: "Ren, J., Furniss, S., Zhou, C., Zhou, H., Hagihara, Y., Wang, X., Zhang, Y.#",
+      link: "https://www.biorxiv.org/content/10.64898/2026.07.31.742119v1",
+      figure: "assets/img/3d-translatome-figure.png",
+      figureScale: 0.85
+    },
+    {
       year: 2025,
       title: "Spatially resolved in situ profiling of mRNA life cycle at transcriptome scale in intact cells and tissues",
       venue: "Nature Protocols",
@@ -147,9 +156,7 @@ window.SITE = {
       title: "Spatial omics advances for in situ RNA biology",
       venue: "Molecular Cell 84(19), 3737–3757",
       authors: "Ren, J., Luo, S., Shi, H.#, Wang, X.#",
-      link: "https://www.cell.com/molecular-cell/fulltext/S1097-2765(24)00656-7",
-      figure: "assets/img/spatial-omics-figure.png",
-      figureHalf: true
+      link: "https://www.cell.com/molecular-cell/fulltext/S1097-2765(24)00656-7"
     },
     {
       year: 2024,
