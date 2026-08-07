@@ -170,7 +170,10 @@
         }
         if (p.figure) {
           var figClass = p.figureHalf ? 'pub__figure pub__figure--half' : 'pub__figure';
-          var figStyle = p.figureScale ? ' style="max-width:' + (p.figureHalf ? 50 * p.figureScale : 100 * p.figureScale) + '%"' : '';
+          var figStyleParts = [];
+          if (p.figureScale) { figStyleParts.push('max-width:' + (p.figureHalf ? 50 * p.figureScale : 100 * p.figureScale) + '%'); }
+          if (p.figureOpacity != null) { figStyleParts.push('opacity:' + p.figureOpacity); }
+          var figStyle = figStyleParts.length ? ' style="' + figStyleParts.join(';') + '"' : '';
           extra += '<img class="' + figClass + '" src="' + esc(p.figure) + '"' + figStyle + ' alt="Figure for ' + esc(p.title) + '">';
         }
         var titleHtml = p.link

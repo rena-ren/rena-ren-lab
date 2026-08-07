@@ -139,7 +139,8 @@ window.SITE = {
       authors: "Ren, J., Furniss, S., Zhou, C., Zhou, H., Hagihara, Y., Wang, X., Zhang, Y.#",
       link: "https://www.biorxiv.org/content/10.64898/2026.07.31.742119v1",
       figure: "assets/img/3d-translatome-figure.png",
-      figureScale: 0.85
+      figureScale: 0.68,
+      figureOpacity: 0.8
     },
     {
       year: 2025,
