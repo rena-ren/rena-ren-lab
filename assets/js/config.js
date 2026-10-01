@@ -85,6 +85,18 @@ window.SITE = {
       blurb: "Rena is founding the lab at the Genome Institute of Singapore (A*STAR). She received her B.A. in Biochemistry at Bryn Mawr College and completed her PhD in Chemistry at Massachusetts Institute of Technology in the United States, under the supervision of Dr. Xiao Wang. She completed her postdoctoral training with Dr. Yi Zhang as a Helen Hay Whitney Postdoctoral Fellow in Harvard Medical School. Outside the lab, Rena has a range of hobbies including reading books, watching movies, music & singing, and exploring artworks."
     }
     ,{
+      name: "Jie Cai, PhD",
+      role: "Postdoctoral Scientist",
+      photo: "assets/img/jie-cai.jpg",
+      blurb: "Jie obtained her PhD from Jinan University in Guangzhou, China. During her PhD work, she investigated key drivers of cognitive impairment during ageing, exploring dietary-based interventions targeting gut microbiota. For her postdoctoral research, she is interested in leveraging spatiotemporal omics platforms to investigate biological mechanisms underlying diverse disease contexts. In her free time, she enjoys travelling, singing and cooking."
+    }
+    ,{
+      name: "Erielle Villanueva, BSc",
+      role: "Research Officer",
+      photo: "assets/img/erielle-villanueva.jpg",
+      blurb: "Erielle completed her BSc in Biological Sciences at Nanyang Technological University in Singapore, where she developed an interest in bioinformatics. Her experience spans cardiovascular and cancer research, with a focus on analyzing bulk, single-cell, and spatial transcriptomics data to understand human disease at the molecular level. She loves singing, playing the piano/ukulele, and solving puzzle hunts in her spare time."
+    }
+    ,{
       name: "You can be next!",
       role: "",
       photo: "assets/img/placeholder-cat.png",
