@@ -118,12 +118,12 @@ window.SITE = {
     {
       title: "Postdoctoral Scientists",
       qualification: "PhD degree in chemical biology, molecular biology, bioengineering, genomics, neuroscience, computational biology, or a related field.",
-      howToApply: "Interested applicants should contact Rena at renarenlab@gmail.com to submit (1) cover letter describing your research experience, (2) CV with a list of publications, and (3) contact for three references. Postdoc fellowships are strongly encouraged."
+      howToApply: "Interested applicants should contact Rena at Rena_Ren@a-star.edu.sg to submit (1) cover letter describing your research experience, (2) CV with a list of publications, and (3) contact for three references. Postdoc fellowships are strongly encouraged."
     },
     {
       title: "Research Officers",
       qualification: "Bachelor’s or Master’s degree in life sciences, bioinformatics, data science, bioengineering, or a related field. General lab skills in molecular biology or genomics. Strong analytical background is preferred.",
-      howToApply: "Interested applicants should contact Rena at renarenlab@gmail.com with CV."
+      howToApply: "Interested applicants should contact Rena at Rena_Ren@a-star.edu.sg with CV."
     },
     {
       title: "PhD Students",
@@ -133,7 +133,7 @@ window.SITE = {
     {
       title: "Undergrad & RA",
       qualification: "Bachelor’s or ongoing degree in life sciences, or data sciences, broadly defined. General lab skills in molecular biology or genomics, or computational and programming language skills, are preferred.",
-      howToApply: "Interested applicants should contact Rena at renarenlab@gmail.com with CV."
+      howToApply: "Interested applicants should contact Rena at Rena_Ren@a-star.edu.sg with CV."
     }
   ],
 
@@ -226,7 +226,7 @@ window.SITE = {
   contact: {
     primaryName: "Rena Ren, PhD",
     primaryRole: "Principal Investigator",
-    email: "renarenlab@gmail.com",
+    email: "Rena_Ren@a-star.edu.sg",
     institution: "Genome Institute of Singapore (GIS), A*STAR",
     location: "Singapore"
   }
